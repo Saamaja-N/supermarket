@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+}
+
+.header-section {
+  background-image: url(../images/headphoto.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 80%;
+  height: 70%;
+  border-radius: 5%;
+  align-items: center;
+  align-self: center;
+  padding-top: 5%;
+  margin-top: 2%;
+  margin-left: 10%;
+  padding-left: 2%;
+}
+
+.col- {
+  padding: 2%;
+  border-width: 20pt;
+}
+
+.header-extradiv {
+  padding-top: 25%;
+}
+
+.smalltext {
+  padding-right: 2%;
+}
+
+.card {
+  padding: 2%;
+  margin: 2%;
+}
+
+.cardcss {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 25%;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.cardcss:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imgcss {
+  border-radius: 5px 5px 0 0;
+}
+
+.containercss {
+  padding: 2px 16px;
+}
